@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="2;url=index.php?cmd=reservations"><br /><br /><br /><div align="center"><img src="../images/loading_ani2.gif" /></div>

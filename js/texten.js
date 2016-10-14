@@ -1,0 +1,5 @@
+/* GEO-TAG Generator      */
+/* auf www.geo-tag.de     */
+/* Englische Texte        */
+/* (c) 2007 Helmut Karger */
+var aa03 = "Start here and enter the address (street, city, country):";var aa01 = "No entry! Try to enter only the country name or use the country selector beneath.";var aa04 = "Zoom into the map and drag the marker to the desired position";var aa47 = "Reduce the accuracy of the position to protect your privacy if desired:";var aa10 = "Select a country or enter a country-code by hand:";var aa19 = "Correct the country if needed:";var aa05 = "Select a region, enter a regional-code by hand or leave it blank:";var aa11 = "Correct the region if needed:";var aa07 = "Select a region:";var aa60 = "Enter the name of the city:";var aa25 = "DC.title is actually not a geo-tag, but will be read out by some geo-databases (Usage is optional)";var aa18 = "Please check the map above to ensure the correct position and then transfer the displayed code to your html-header:";

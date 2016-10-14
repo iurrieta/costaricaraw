@@ -1,0 +1,102 @@
+/* CSS Document */
+/* CALENDARIO */
+#cal {
+	color:#333;
+	background-color:#ccc;
+	border: 1px solid;
+	border-color: #1a4551;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+#cal td {
+	text-align:center;
+	width: 70px;
+	height:70px;
+	background-color: #FFF;
+}
+tr#days-of-week td { background-color: #aaa;}
+#cal thead td {
+	background-color: #CAE8F0;
+	font-size: 12px;
+	font-weight: bold;
+}
+#cal thead a{ color: #000;}
+.cal-available{
+	color: #090;
+	text-decoration:none;
+}
+a.cal-available:visited{
+	color: #090;
+	text-decoration:none;
+}
+.cal-unavailable {
+	color: #900;
+/*	text-decoration:none;*/
+	text-decoration:line-through
+}
+a.cal-unavailable:visited {
+	color: #900;
+/*	text-decoration:none;*/
+	text-decoration:line-through
+}
+#cal .cal-prev-month-day, #cal .cal-next-month-day {
+	color: #990;
+}
+#cal-current-day {
+	background-color: #CCC !important;
+}
+.Price {
+	/*background-color:#A4DCEC;
+	width:80px;*/
+	color: #00C;
+	font-weight:bold;
+}
+.PriceOferta{
+	/*	background-color:#ACE4AB;
+	width:80px;*/
+	color:#FF0700;
+	font-weight:bold;
+}
+.PriceOferta a{
+	/*	background-color:#ACE4AB;
+	width:80px;*/
+	color:#FF0700;
+	font-weight:bold;
+}
+.PriceOferta a:hover{
+	/*	background-color:#ACE4AB;
+	width:80px;*/
+	color:#FF0700;
+	font-weight:bold;
+}
+.PriceOferta a:visited{
+	/*	background-color:#ACE4AB;
+	width:80px;*/
+	color:#FF0700;
+	font-weight:bold;
+}
+.AvailOferta {
+/*	background-color:#CEC98A;
+	width:80px;*/
+	color: #001246;
+	font-weight:bold;
+}
+.BookBlueOferta {
+/*	background-color:#357ED9;*/
+	/*width:80px;*/
+	color: #DADADA;
+	font-weight:bold;
+}
+.Avail {
+	/*background-color:#827C37;
+	width:80px;*/
+	color: #006;
+	font-weight:bold;
+}
+.BookBlue {
+/*	background-color:#205FAA;
+	width:80px;*/
+	color: #205FAA;
+	font-weight:bold;
+}
+/* CALENDARIO */
+

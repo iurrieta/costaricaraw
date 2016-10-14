@@ -1,0 +1,49 @@
+.rank ul {
+	list-style: none;
+	margin: 3px;
+	padding: 0px;
+	width: 125px;
+	height: 25px;
+	position: relative;
+	background: url(../images/alt_star.png) top left repeat-x;
+	margin-left:0px;
+}
+.rank li {
+	padding: 0px;
+	margin: 0px;	
+	float: left;	
+}
+.rank li.current-rating {
+	background: url(../images/alt_star.png) left bottom;
+	position: absolute;
+	height: 25px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
+.rank li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+	background-image: none;
+}
+.rank li a:hover {
+	background: url(../images/alt_star.gif) left center;
+	z-index: 1;
+	left: 0px;
+}
+.rank a.star-1 {left: 0px;}
+.rank a.star-1:hover {width: 25px;}
+.rank a.star-2 {left: 25px;}
+.rank a.star-2:hover {width: 50px;}
+.rank a.star-3 {left: 50px;}
+.rank a.star-3:hover {width: 75px;}
+.rank a.star-4 {left: 75px;}
+.rank a.star-4:hover {width: 100px;}
+.rank a.star-5 {left: 100px;}
+.rank a.star-5:hover {width: 125px;}

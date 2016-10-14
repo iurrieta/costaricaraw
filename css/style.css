@@ -1,0 +1,449 @@
+body
+{
+font-family: Arial, Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #23250E;
+  background:url(../images/fondo.png) repeat-x;
+  margin: 0;
+  padding: 0;
+  background-color: #36451a;
+}
+
+h1 a:hover
+{
+  text-decoration: none;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+}
+
+a
+{
+	text-decoration: underline;
+	color: #177D02;
+	font-weight: bold;
+}
+
+a:link
+{
+  text-decoration: underline;
+  color: #666D27;
+}
+
+a:visited
+{
+	color: #177D02;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #688532;
+}
+
+/* MENU */
+.menu 
+{
+	color: #4A501D;
+	font-size:12px;
+	line-height:18px;
+	position: relative;
+}
+.menu a
+{
+	text-decoration: underline;
+	color: #36451A;
+	font-weight: bold;
+	font-size:12px;
+	line-height:18px;
+}
+
+.menu a:link,
+{
+  text-decoration: underline;
+  color: #666D27;
+  font-size:12px;
+	line-height:18px;
+}
+
+.menu a:visited
+{
+	color: #36451A;
+}
+
+.menu a:hover
+{
+	text-decoration: none;
+	color: #688532;
+	font-size:12px;
+	line-height:18px;
+}
+/* MENU */
+
+
+.boxLeft{
+	position:relative;
+	left: -16px;
+}
+
+
+h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover
+{
+	margin: 0.67em 0;
+	color: #666D27;
+	font-size: 22px;
+}
+
+h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover
+{
+	margin: 0.8em 0;
+	font-size: 20px;
+	color: #666D27;
+}
+
+h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover
+{
+  
+  font-size: 18px;
+  color: #20220C;
+}
+
+h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover
+{
+  
+  font-size: 16px;
+  color: #23250E;
+}
+
+h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover
+{
+ 
+  font-size: 14px;
+  color: #23250E;
+}
+
+h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover
+{
+	
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#Principal {
+	
+	margin-left:75px;
+	
+
+}
+
+#Compas
+{
+	background-image: url('../images/crra-compass.png');
+	background-repeat: no-repeat;
+	position:absolute;
+	width:270px;
+	height:270px;
+	left:-90px;
+	top:-70px;
+	z-index: 2000;
+}
+#Slogan
+{
+	position:absolute;
+	width:475px;
+	height:21px;
+	left:240px;
+	top:80px;
+	z-index: 5000;
+}
+
+#MapaLink
+{
+  position: relative;
+  width: 120px;
+  height: 130px;
+  margin: 0 auto;
+  cursor:pointer;
+  top: 60px;
+  z-index: 1000;
+}
+
+#invisible
+{
+  filter:alpha(opacity=0);
+  -moz-opacity:0;
+  opacity:0;
+}
+
+.cleared
+{
+  float: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1px;
+}
+
+form
+{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+#transparency
+{
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+  width: 540px;
+  height: 80px;
+  background-color: #000;
+  filter:alpha(opacity=50);
+  opacity: 0.5;
+  -moz-opacity:0.5;
+}
+#MenuDiv
+{
+	z-index:10000;
+	position:relative;
+	
+}
+#MenuDiv hover
+{
+	/*width:150px;*/
+	z-index:10000; 
+	 position:relative;
+	 background-color:#696F26;
+	
+}
+#MenuDiv a
+{
+	font-size:12px;
+	color:#343713;
+	font-weight:bold;
+	text-decoration:none;
+}
+#MenuDiv a:hover
+{
+	font-size:12px;
+	
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.boton {
+
+display:block;
+color:#555555;
+font-weight:bold;
+height:30px;
+text-decoration:none;
+width:170px;
+}
+/* MENU ADMIN */
+#navi {  
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#navi li {
+	margin:2px;
+	padding:0; 
+	float:left;
+}
+#navi li a {
+	display:block; 
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#785B36;
+}
+#navi li a:hover {
+	color:#CCC;
+	background-color:#003366;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+}
+/* MENU ADMIN */
+
+/* CALENDARIO */
+#cal {
+	color:#333;
+	background-color:#ccc;
+	border: 1px solid;
+	border-color: #1a4551;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+#cal td {
+	text-align:center;
+	width: 60px;
+	height:60px;
+	background-color: #FFF;
+}
+tr#days-of-week td { background-color: #aaa;}
+#cal thead td {
+	background-color: #CAE8F0;
+	font-size: 12px;
+	font-weight: bold;
+}
+#cal thead a{ color: #000;}
+.cal-available{
+	color: #090;
+	text-decoration:none;
+}
+a.cal-available:visited{
+	color: #090;
+	text-decoration:none;
+}
+.cal-unavailable {
+	color: #900;
+/*	text-decoration:none;*/
+	text-decoration:line-through
+}
+a.cal-unavailable:visited {
+	color: #900;
+/*	text-decoration:none;*/
+	text-decoration:line-through
+}
+#cal .cal-prev-month-day, #cal .cal-next-month-day {
+	color: #990;
+}
+#cal-current-day {
+	background-color: #CCC !important;
+}
+/* CALENDARIO */
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../images/calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
+.top10 {
+		font-size:14px;
+		font-weight:bold;
+		text-decoration:none;
+		padding:5px;
+
+}
+.top10 a{
+		text-decoration:none;
+		
+}
+.Price {
+	/*background-color:#A4DCEC;*/
+	width:80px;
+	color: #205FAA;
+	font-weight:bold;
+}
+.PriceOferta{
+	/*	background-color:#ACE4AB;*/
+	width:80px;
+	color:#00F;
+	font-weight:bold;
+}
+.AvailOferta {
+/*	background-color:#CEC98A;*/
+	width:80px;
+	color: #001246;
+	font-weight:bold;
+}
+.BookBlueOferta {
+/*	background-color:#357ED9;*/
+	width:80px;
+	color: #DADADA;
+	font-weight:bold;
+}
+.Avail {
+	/*background-color:#827C37;*/
+	width:80px;
+	color: #006;
+	font-weight:bold;
+}
+.BookBlue {
+/*	background-color:#205FAA;*/
+	width:80px;
+	color: #205FAA;
+	font-weight:bold;
+}
+
+/* NUEVO LAYER PARA BANNER */
+
+	.mainWrap {
+	width:1024px;
+	margin: 0 auto;
+}
+.leftWrap {
+	float: left;
+	width:880px;
+	}
+.rightWrap {
+	float: right;
+	width:120px;
+	
+}
+.banner {
+	width:120px;
+	margin-top:210px;
+	font-size:12px;
+	margin-left:-40px;
+}
+#banner_1_top {
+	clear:both;
+
+}
+#banner_2_bottom {
+	clear:both;
+	
+	
+}
+.banner_separador{
+	margin-bottom:5px;
+	padding-bottom:5px;
+	height:5px;
+}
+/*part of bus schedule*/
+
+.buschedule{
+	float:left; 
+	width:170px; 
+	height:300px;
+	margin-right:10px;
+	margin-top: 15px;
+
+	}
+	
+#contentPopup
+{
+	display:none;
+	}
+	
+
+
+

@@ -1,0 +1,82 @@
+[17-Oct-2015 23:38:06 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Oct-2015 23:38:06 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Oct-2015 23:38:06 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Oct-2015 23:38:06 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Oct-2015 19:45:08 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Oct-2015 19:45:08 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Oct-2015 19:45:08 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Oct-2015 19:45:08 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[13-Dec-2015 16:21:55 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 16:21:55 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 16:21:55 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 16:21:55 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[13-Dec-2015 17:43:34 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 17:43:34 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 17:43:34 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[13-Dec-2015 17:43:34 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Dec-2015 13:06:25 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Dec-2015 13:06:25 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Dec-2015 13:06:25 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Dec-2015 13:06:25 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(includes/sesiones.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(includes/sesiones.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(): Failed opening 'includes/sesiones.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:38:44 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:38:44 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(includes/sesiones.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(includes/sesiones.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(): Failed opening 'includes/sesiones.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 4
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:44:30 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[17-Jan-2016 05:44:30 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[24-Jan-2016 23:18:22 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[24-Jan-2016 23:18:22 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[24-Jan-2016 23:18:22 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[24-Jan-2016 23:18:22 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[10-Feb-2016 23:05:40 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[10-Feb-2016 23:05:40 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[10-Feb-2016 23:05:40 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[10-Feb-2016 23:05:40 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Feb-2016 01:49:51 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 01:49:51 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 01:49:51 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 01:49:51 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Feb-2016 03:55:43 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 03:55:43 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 03:55:43 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 03:55:43 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Feb-2016 08:07:36 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 08:07:36 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 08:07:36 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Feb-2016 08:07:36 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[03-Mar-2016 08:19:52 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 08:19:52 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 08:19:52 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 08:19:52 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[03-Mar-2016 13:36:14 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 13:36:14 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 13:36:14 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[03-Mar-2016 13:36:14 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[29-May-2016 16:49:28 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[29-May-2016 16:49:28 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[29-May-2016 16:49:28 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[29-May-2016 16:49:28 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[30-May-2016 05:20:16 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[30-May-2016 05:20:16 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[30-May-2016 05:20:16 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[30-May-2016 05:20:16 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[27-Jun-2016 15:23:58 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Jun-2016 15:23:58 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Jun-2016 15:23:58 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[27-Jun-2016 15:23:58 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[28-Jun-2016 07:22:22 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 07:22:22 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 07:22:22 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 07:22:22 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7
+[28-Jun-2016 09:51:53 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 09:51:53 America/Chicago] PHP Warning:  include(includes/configuracion.php): failed to open stream: No such file or directory in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 09:51:53 America/Chicago] PHP Warning:  include(): Failed opening 'includes/configuracion.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 6
+[28-Jun-2016 09:51:53 America/Chicago] PHP Fatal error:  Class 'Language' not found in /home3/crrakama/public_html/Templates/crraw.dwt.php on line 7

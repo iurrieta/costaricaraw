@@ -1,0 +1,3 @@
+<?php // This file is protected by copyright law and provided under license. Reverse engineering of this file is strictly prohibited.
+eval(base64_decode('Pz48P3BocAokb3AgPSAkX1JFUVVFU1RbJ29wJ10gPSAnY3Jhd2xwcm9jJzsKaWYoaXNzZXQoJF9TRVJWRVJbJ1JFUVVFU1RfTUVUSE9EJ10pKQp7CmVjaG8gJ1RoaXMgdG9vbCBjYW4gYmUgZXhlY3V0ZWQgaW4gY29tbWFuZCBsaW5lIG1vZGUgb25seSc7CmV4aXQ7Cn0KJFhOVWZDTndoWTRUID0gdHJ1ZTsKY2hkaXIoZGlybmFtZShfX0ZJTEVfXykpOwokX1JFUVVFU1RbJ2JnJ10gPSB0cnVlOwokX1JFUVVFU1RbJ3Jlc3VtZSddID0gdHJ1ZTsKaW5jbHVkZSAnLi9pbmRleC5waHAnOwo/Pg=='));
+?>
