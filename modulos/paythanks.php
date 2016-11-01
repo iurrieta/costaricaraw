@@ -31,8 +31,8 @@ $bodyHTML = '<style type="text/css">
           <td><h2>Costa Rica Raw Adventures S.R.L</h2>
             <p class="datos">Cedula Juridica: 3-102-595795<br>Cel. +506 8594-0803<br>
               Turrialba, Cartago, Costa Rica<br>
-          <a href="mailto:adventures@costaricaraw.com/dev">adventures@costaricaraw.com/dev</a><br>
-      <a href="http://www.costaricaraw.com/devrget="_blank">www.costariccostaricaraw.com/dev></td>
+          <a href="mailto:booked@costaricaraw.com">booked@costaricaraw.com</a><br>
+      <a href="http://www.costaricaraw.com/dev/rget="_blank">www.costariccostaricaraw.com/dev/></td>
           <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
               <tr>
                 <td colspan="3"><strong>Order Number: <span class="reciboN">#'.$Invoice['id'].'</span></strong></td>
@@ -138,10 +138,10 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n"; 
 //para el envien formato HTML 
 //direccion el remitente 
-$headers .= "From: Costa Rica Raw Adventures<adventures@costaricaraw.com/dev>\r\n";
-$headers .= "Reply-To: adventures@costaricaraw.com/dev\r\n";
+$headers .= "From: Costa Rica Raw Adventures<booked@costaricaraw.com>\r\n";
+$headers .= "Reply-To: booked@costaricaraw.com\r\n";
 //$headers .= "Return-Path: ventas@jarscr.com\r\n";
-//$headers .= "BCC: adventures@costaricaraw.com/dev\r\n";
+//$headers .= "BCC: booked@costaricaraw.com\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
 $mensaje_formato = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -156,7 +156,7 @@ $mensaje_formato = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//E
 '.$bodyHTML.'
 <br />
 Costa Rica Raw Adventure<br />
-www.costaricarawcostaricaraw.com/devalba, Cartago. Costa Rica
+www.costaricarawcostaricaraw.com/dev/alba, Cartago. Costa Rica
 </body>
 </html>';
 
@@ -172,7 +172,7 @@ $mensaje_formato_two = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitiona
 '.$bodyHTML.'
 <br />
 Costa Rica Raw Adventure<br />
-www.costaricaraw.com/devcostaricaraw.com/dev, Cartago. Costa Rica
+www.costaricaraw.com/dev/costaricaraw.com/dev/, Cartago. Costa Rica
 <br><br>
 Tracking: '.$Adicional2.'
 </body>
@@ -226,8 +226,8 @@ if($SpecialNT){
           <td><h2>Costa Rica Raw Adventures S.R.L</h2>
             <p class="datos">Cedula Juridica: 3-102-595795<br>Cel. +506 8594-0803<br>
               Turrialba, Cartago, Costa Rica<br>
-          <a href="mailto:adventures@costaricaraw.com/dev">adventures@costaricaraw.com/dev</a><br>
-      <a href="http://www.costaricaraw.com/dev/devcostaricaraw.com/devw.costaricaraw.com/dev/ </acostaricaraw.com/dev <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
+          <a href="mailto:booked@costaricaraw.com">booked@costaricaraw.com</a><br>
+      <a href="http://www.costaricaraw.com/dev/devcostaricaraw.com/dev/w.costaricaraw.com/dev// </acostaricaraw.com/dev/ <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
               <tr>
                 <td colspan="3"><strong>Order Number: <span class="reciboN">#'.$Invoice['id'].'</span></strong></td>
               </tr><tr><td>&nbsp;</td><td width="5">&nbsp;</td><td>&nbsp;</td></tr><tr>
@@ -292,7 +292,7 @@ Thanks for your reservation <br />
 </table><br><br />
 Costa Rica Raw Adventure<br />
 www.costaricaraw.com/dev/<br />
-Tcostaricaraw.com/devosta Rica
+Tcostaricaraw.com/dev/osta Rica
 </body>
 </html>';	  
 			  
@@ -308,8 +308,8 @@ unset($CodeText);
 
 
 mail($Invoice['email'],"New Reservation #".$Invoice['id'],$mensaje_formato,$headers);
-@mail("booked@costaricaraw.com/dev/","New Reservation #".$Invoice['id'],$mensaje_formato_two,$headers);
-//@mail("adventures@costaricaraw.com/dev","New Reservation #".$reserveNumber,$mailInformation,$headers);
+@mail("booked@costaricaraw.com/dev//","New Reservation #".$Invoice['id'],$mensaje_formato_two,$headers);
+//@mail("booked@costaricaraw.com","New Reservation #".$reserveNumber,$mailInformation,$headers);
 
 $updateEstado = $db->consulta("UPDATE `reservations` SET `status`='2' WHERE `id`='".$Invoice['id']."'");
 

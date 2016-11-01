@@ -116,11 +116,11 @@ $_SESSION['affiliateLogo'] = $Visitas['logo'];
 $puerto = $_SERVER['SERVER_PORT'];
 if($puerto=="443"){
 ?>
-<base href="https://www.costaricaraw.com/dev" />
+<base href="https://www.costaricaraw.com/dev/" />
 <?php
 } else {
 ?>
-<base href="http://www.costaricaraw.com/dev" />
+<base href="http://www.costaricaraw.com/dev/" />
 <?
 }
 ?> 

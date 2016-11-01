@@ -234,12 +234,12 @@ $Lineas .=' <tr>
 $BodyHTMLF = '<tr><td colspan="9" align="center">&nbsp;</td></tr></table>';
 
 $MensajeHTML = $BodyHTML.$Lineas.$BodyHTMLF;
-$To = "adventures@costaricaraw.com/dev";
+$To = "booked@costaricaraw.com";
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=utf-8\r\n"; 
 
-$headers .= "From: Costa Rica Raw Adventures<adventures@costaricaraw.com/dev>\r\n";
-$headers .= "Reply-To: adventures@costaricaraw.com/dev\r\n";
+$headers .= "From: Costa Rica Raw Adventures<booked@costaricaraw.com>\r\n";
+$headers .= "Reply-To: booked@costaricaraw.com\r\n";
 if($EmailCopy==0){
 	
 }else{

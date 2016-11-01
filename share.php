@@ -16,18 +16,18 @@ var posicion_x;
 var posicion_y; 
 posicion_x=(screen.width/2)-(ancho/2); 
 posicion_y=(screen.height/2)-(alto/2); 
-window.open(url, "costaricaraw.com/dev", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
+window.open(url, "costaricaraw.com/dev/", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
 }
 </script> 
 <meta property="og:title" content="Costa Rica Raw :: <?php echo $FlyeTitulo; ?>" />
-<meta property="og:url" content="https://www.costcostaricaraw.com/devre.php?flyer=<?php echo $_REQUEST['flyer'];?>&type=<?=$_REQUEST['type']?>&flyerimg=<?php echo $_REQUEST['flyerimg']; ?>&text=<?php echo $FlyeTitulo; ?>" />
+<meta property="og:url" content="https://www.costcostaricaraw.com/dev/re.php?flyer=<?php echo $_REQUEST['flyer'];?>&type=<?=$_REQUEST['type']?>&flyerimg=<?php echo $_REQUEST['flyerimg']; ?>&text=<?php echo $FlyeTitulo; ?>" />
 <meta property="og:description" content="Costa Rica Raw :: <?php echo $FlyeTitulo; ?>" />  
 <?php if($_REQUEST['type']=="img"){  ?>
-<meta property="og:image" content="http://www.costariccostaricaraw.com/dev?php echo $_REQUEST['flyer'];?>" />
+<meta property="og:image" content="http://www.costariccostaricaraw.com/dev/?php echo $_REQUEST['flyer'];?>" />
 <?php 
 }
 if($_REQUEST['type']=="doc"){ ?>
-<meta property="og:image" content="http://www.costaricarawcostaricaraw.com/dev echo $_REQUEST['flyerimg'];?>" />
+<meta property="og:image" content="http://www.costaricarawcostaricaraw.com/dev/ echo $_REQUEST['flyerimg'];?>" />
 <?php } ?>
 
 </head>

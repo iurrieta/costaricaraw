@@ -417,8 +417,8 @@ $bodyHTML = '<style type="text/css">
           <td><h2>Costa Rica Raw Adventures S.R.L</h2>
             <p class="datos">Cedula Juridica: 3-102-595795<br>Cel. +506 8594-0803<br>
               Turrialba, Cartago, Costa Rica<br>
-          <a href="mailto:adventures@costaricaraw.com/dev">adventures@costaricaraw.com/dev</a><br>
-      <a href="http://www.costaricaraw.com/dev" target="_blank">www.costaricaraw.com/dev </a></p></td>
+          <a href="mailto:booked@costaricaraw.com">booked@costaricaraw.com</a><br>
+      <a href="http://www.costaricaraw.com/dev/" target="_blank">www.costaricaraw.com/dev/ </a></p></td>
           <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
               <tr>
                 <td colspan="3"><strong>Order Number: <span class="reciboN">#'.$Invoice['id'].'</span></strong></td>
@@ -537,10 +537,10 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n"; 
 //para el envien formato HTML 
 //direccion el remitente 
-$headers .= "From: Costa Rica Raw Adventures<adventures@costaricaraw.com/dev>\r\n";
-$headers .= "Reply-To: adventures@costaricaraw.com/dev\r\n";
+$headers .= "From: Costa Rica Raw Adventures<booked@costaricaraw.com>\r\n";
+$headers .= "Reply-To: booked@costaricaraw.com\r\n";
 //$headers .= "Return-Path: ventas@jarscr.com\r\n";
-//$headers .= "BCC: adventures@costaricaraw.com/dev\r\n";
+//$headers .= "BCC: booked@costaricaraw.com\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
 $mensaje_formato = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -555,7 +555,7 @@ $mensaje_formato = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//E
 '.$bodyHTML.'
 <br />
 Costa Rica Raw Adventure<br />
-www.costaricaraw.com/dev<br />
+www.costaricaraw.com/dev/<br />
 Turrialba, Cartago. Costa Rica
 </body>
 </html>';
@@ -572,7 +572,7 @@ $mensaje_formato_two = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitiona
 '.$bodyHTML.'
 <br />
 Costa Rica Raw Adventure<br />
-www.costaricaraw.com/dev<br />
+www.costaricaraw.com/dev/<br />
 Turrialba, Cartago. Costa Rica
 <br><br>
 Tracking: '.$Adicional2.'
@@ -615,8 +615,8 @@ Tracking: '.$Adicional2.'
           <td><h2>Costa Rica Raw Adventures S.R.L</h2>
             <p class="datos">Cedula Juridica: 3-102-595795<br>Cel. +506 8594-0803<br>
               Turrialba, Cartago, Costa Rica<br>
-          <a href="mailto:adventures@costaricaraw.com/dev">adventures@costaricaraw.com/dev</a><br>
-      <a href="http://www.costaricaraw.com/dev" target="_blank">www.costaricaraw.com/dev </a></p></td>
+          <a href="mailto:booked@costaricaraw.com">booked@costaricaraw.com</a><br>
+      <a href="http://www.costaricaraw.com/dev/" target="_blank">www.costaricaraw.com/dev/ </a></p></td>
           <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
               <tr>
                 <td colspan="3"><strong>Order Number: <span class="reciboN">#'.$Invoice['id'].'</span></strong></td>
@@ -700,7 +700,7 @@ Thanks for your reservation
   </tr>
 </table><br><br />
 Costa Rica Raw Adventure<br />
-www.costaricaraw.com/dev<br />
+www.costaricaraw.com/dev/<br />
 Turrialba, Cartago. Costa Rica
 </body>
 </html>';	  
@@ -717,7 +717,7 @@ unset($Item);
 
 
 mail($Invoice['email'],"New Reservation #".$Invoice['id'],$mensaje_formato,$headers);
-@mail("booked@costaricaraw.com/dev","New Reservation #".$Invoice['id'],$mensaje_formato_two,$headers);
+@mail("booked@costaricaraw.com/dev/","New Reservation #".$Invoice['id'],$mensaje_formato_two,$headers);
 //@mail("arodriguez@jarscr.com","New Reservation #".$Invoice['id'],$mensaje_formato_two,$headers);
 
         ?>

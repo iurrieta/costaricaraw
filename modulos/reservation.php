@@ -62,6 +62,11 @@ $time = gmdate("g:i:s", time() + $zone);;
 
 $save = $db->consulta("INSERT INTO `reservations` (`date`,`time`,`checkIn`,`name`,`lastname`,`email`,`paymentMethod`) VALUES ('".$date."','".$time."','".$checkin."', '".$name."','".$lastname."','".$email."','paypal')");
 
+    /**
+     * prueba envio de email
+     */
+    mail('booked@costaricaraw.com', 'costaricaraw', 'esta es una prueba');
+
 $reserveNumber = $db->getLastID();
 
 $suma=0;
@@ -183,8 +188,8 @@ $information = '<style type="text/css">
           <td><h2>Costa Rica Raw Adventures S.R.L</h2>
             <p class="datos">Cedula Juridica: 3-102-595795<br>Cel. +506 8594-0803<br>
               Turrialba, Cartago, Costa Rica<br>
-          <a href="mailto:adventures@costaricaraw.com/dev">adventures@costaricaraw.com/dev</a><br>
-      <a href="http://www.costaricaraw.com/dev" target="_blank">www.costaricaraw.com/dev </a></p></td>
+          <a href="mailto:booked@costaricaraw.com">booked@costaricaraw.com</a><br>
+      <a href="http://www.costaricaraw.com/dev/" target="_blank">www.costaricaraw.com/dev/ </a></p></td>
           <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:#666 1px solid;border-right:#666 1px solid;">
               <tr>
                 <td colspan="3"><strong>Order Number: <span class="reciboN">#'.$reserveNumber.'</span></strong></td>
@@ -264,9 +269,10 @@ $mailInformation = $information.$Adicional2.$Adicional;
 
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=UTF-8\r\n"; 
-$headers .= "From: costaricaraw.com/dev<adventures@costaricaraw.com/dev>\n";
+$headers .= "From: costaricaraw.com/dev/<booked@costaricaraw.com>\n";
 
-@mail("pending@costaricaraw.com/dev","Pending Order #".$reserveNumber,$mailInformation,$headers);
+mail("booked@costaricaraw.com","Pending Order #".$reserveNumber,$mailInformation,$headers);
+//@mail("pending@costaricaraw.com/dev/","Pending Order #".$reserveNumber,$mailInformation,$headers);
 //@mail("arodriguez@jarscr.com","Pending Order #".$reserveNumber,$mailInformation,$headers);
 
 //echo $information;
@@ -286,7 +292,7 @@ $headers .= "From: costaricaraw.com/dev<adventures@costaricaraw.com/dev>\n";
   <tr>
     <td height="140" align="center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="form1">  
 <input type="hidden" name="cmd" value="_xclick">  
-<input type="hidden" name="business" value="kama@costaricaraw.com/dev">
+<input type="hidden" name="business" value="kama@costaricaraw.com/dev/">
 <input type="hidden" name="item_name" value="Reservation #<?=$reserveNumber?>">  
 <input type="hidden" name="amount" value="<?=$MontoPagar?>">  
 <input type="hidden" name="quantity" value="1">  

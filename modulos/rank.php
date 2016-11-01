@@ -6,7 +6,7 @@ contacto: marco.fbb@gmail.com
 
 */
 $pass2 = "1"; // la pass para que nadie pueda crear ranking
-$web = "www.costaricaraw.com/dev"; // tu web xD no es nesesario pero para que quede mas automatisado el script
+$web = "www.costaricaraw.com/dev/"; // tu web xD no es nesesario pero para que quede mas automatisado el script
 	//funcion para conectar con la base de datos
 	function conectar(){
 		// Conexi�n a la base de datos

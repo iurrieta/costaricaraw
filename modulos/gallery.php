@@ -39,9 +39,9 @@ $information = "<b>Name ".$_POST['name']."</b><br>
 	
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=UTF-8\r\n"; 
-$headers .= "From: costaricaraw.com/dev<adventures@costaricaraw.com/dev>\n";
+$headers .= "From: costaricaraw.com/dev/<booked@costaricaraw.com>\n";
 	
-@mail("adventures@costaricaraw.com/dev","New Share Adventure Media",$information,$headers);
+@mail("booked@costaricaraw.com","New Share Adventure Media",$information,$headers);
 $ThanksForShare = "alert('Thanks for Share your Raw Adventure.');";
 }
 ?>
