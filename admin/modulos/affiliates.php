@@ -580,7 +580,39 @@ while($Adventure=$db->fetch_array($sql)){
         </select>
         </div>
     </td>
+      <td colspan="">
+          <div style="float:left">
+              Bus Schedule:
+          </div>
+          <div id="divBus">
+              <select id="bus_select" multiple="" style="display: none;">
+                  <?
+                  $query1 = $db->consulta("SELECT * FROM `transport`");
+
+                  while ($bus = $db->fetch_array($query1))
+                  { ?>
+                      <option value='<? echo $bus['id'] ?>'
+                          <?
+                          $query2 = $db->consulta("SELECT * FROM `affiliates_transport` WHERE idaffiliate =".$Page["id"]);
+                          while($selected = $db->fetch_array($query2))
+                          {
+                              if( $bus['id'] == $selected['idtransport'])
+                              {
+                                  echo('selected');
+                              }
+                          }
+
+                          ?>
+                      ><? echo $bus['name'] ?></option>;
+                  <? } ?>
+
+              </select>
+          </div>
+      </td>
   </tr>
+    <tr>
+        <td><input type="text" name="select_bus_s" id="select_bus_s" style="display:none" /></td>
+    </tr>
   <tr>
   <td>
   <div id="divbanner1">
@@ -706,6 +738,33 @@ while($Adventure=$db->fetch_array($sql)){
 			
 			}
 		}
+
+        // Bus Schedule
+        $(document).ready(function () {
+            $("#bus_select").dropdownchecklist({ width: 200, maxDropHeight:150,
+                onComplete: function (selector) {
+                    var values = "";
+                    for (var i = 0; i < selector.options.length; i++) {
+                        if (selector.options[i].selected && (selector.options[i].value != "")) {
+                            if (values != "") values += ";";
+                            values += selector.options[i].value;
+                        }
+                    }
+                    document.getElementById("select_bus_s").value = values;
+                }, textFormatFunction: function (options) {
+                    var selectedOptions = options.filter(":selected");
+                    var countOfSelected = selectedOptions.length;
+                    var size = options.length;
+                    switch (countOfSelected) {
+                        case 0: return "<i>Please Select...<i>";
+                        case 1: return selectedOptions.text();
+                        case options.length: return "<b>All</b>";
+                        default: return countOfSelected + " Bus Schedules";
+                    }
+                }
+
+            });
+        });
 	
         $(document).ready(function () {
                      $("#chkmulBanner1").dropdownchecklist({ width: 200, maxDropHeight:150,
@@ -811,9 +870,10 @@ $special8 = $_POST['special8'];
 $special9 = $_POST['special9'];
 $special10 = $_POST['special10'];
 
+    //bus schedule selection
+    $BusSchedule = explode(';', $_POST['select_bus_s']);
+
 //Banners's Selection
-
-
 $Value1 = explode(';',$_POST['Banner1']);
 $Value2 = explode(';',$_POST['Banner2']);
 
@@ -858,6 +918,20 @@ $sqlAddCategories = mysql_query("INSERT INTO `affiliates_menu`(`affiliate`,`menu
 
 
 }
+
+
+    // bus schedule
+    $delete_bus = $db->consulta("DELETE FROM `affiliates_transport` WHERE `idaffiliate` = '".$id."'");
+    if (count($BusSchedule) > 0)
+    {
+        foreach ($BusSchedule as $j => $item)
+        {
+            $query = $db->consulta("INSERT INTO `affiliates_transport` (`idaffiliate`,`idtransport`) values ('".$id."','".$BusSchedule[$j]."')");
+        }
+    }
+
+
+
 $delete1 = $db->consulta("DELETE FROM `affiliates_banner` WHERE `idaffiliate` = '".$id."'");
 
 if(count($Value1) > 0)
@@ -1387,7 +1461,26 @@ while($Adventure=$db->fetch_array($sql)){
         </select>
         </div>
     </td>
+      <td colspan="">
+          <div style="float:left">
+              Bus Schedule:
+          </div>
+          <div id="divBus">
+              <select id="bus_select" multiple="" style="display: none;">
+                  <?
+                  $query = $db->consulta("SELECT * FROM `transport`");
+                  while($bus = $db->fetch_array($query)){
+                      $bus_schedule .= "<option value='".$bus['id']."'>".$bus['name']."</option>";
+                  }
+                  echo $bus_schedule;
+                  ?>
+              </select>
+          </div>
+      </td>
   </tr>
+    <tr>
+        <td><input type="text" name="select_bus_s" id="select_bus_s" style="display:none" /></td>
+    </tr>
   <tr>
   <td>
   <div id="divbanner1">
@@ -1456,7 +1549,35 @@ while($Adventure=$db->fetch_array($sql)){
 			
 			}
 		}
-	
+
+		// Bus Schedule
+        $(document).ready(function () {
+            $("#bus_select").dropdownchecklist({ width: 200, maxDropHeight:150,
+                onComplete: function (selector) {
+                    var values = "";
+                    for (var i = 0; i < selector.options.length; i++) {
+                        if (selector.options[i].selected && (selector.options[i].value != "")) {
+                            if (values != "") values += ";";
+                            values += selector.options[i].value;
+                        }
+                    }
+                    document.getElementById("select_bus_s").value = values;
+                }, textFormatFunction: function (options) {
+                    var selectedOptions = options.filter(":selected");
+                    var countOfSelected = selectedOptions.length;
+                    var size = options.length;
+                    switch (countOfSelected) {
+                        case 0: return "<i>Please Select...<i>";
+                        case 1: return selectedOptions.text();
+                        case options.length: return "<b>All</b>";
+                        default: return countOfSelected + " Bus Schedules";
+                    }
+                }
+
+            });
+        });
+
+        // Banners
         $(document).ready(function () {
                      $("#chkmulBanner1").dropdownchecklist({ width: 200, maxDropHeight:150,
                          onComplete: function (selector) {
@@ -1568,19 +1689,14 @@ $special10 = $_POST['special10'];
 $special_show_note = $_POST['special_show_note'];
 $special_note = $_POST['special_note'];
 
+    //bus schedule selection
+    $BusSchedule = explode(';', $_POST['select_bus_s']);
+
 //Banners's Selection
-
-
 $Value1 = explode(';',$_POST['Banner1']);
 $Value2 = explode(';',$_POST['Banner2']);
 
-
-
-
-
 //special_show_note
-
-
 if($logo==""){
 	$imagen = "blank.gif";
 }else{
@@ -1594,17 +1710,10 @@ if($logo==""){
 	}
 }
 
-
 //        $update = $db->consulta("UPDATE `affiliates` SET `email`='".$email."',`top`='$top',`1`='$top1',`2`='$top2',`3`='$top3',`4`='$top4',`5`='$top5',`6`='$top6',`7`='$top7',`8`='$top8',`9`='$top9',`10`='$top10',`code`='$code',`logo`='$imagen',`show_note`='$show_note',`note`='$note',`raw`='$raw' WHERE `id`='".$id."'");
-		
 
 //special
  //       $update1 = $db->consulta("UPDATE `special` SET `email`='".$email."',`top`='$top',`1`='$special1',`2`='$special2',`3`='$special3',`4`='$special4',`5`='$special5',`6`='$special6',`7`='$special7',`8`='$special8',`9`='$special9',`10`='$special10',`code`='$code',`logo`='$imagen',`special`='$special',`special_show_note`='$special_show_note',`special_note`='$special_note' WHERE `id`='".$id."'");   tbl_1
-
-
-
-
-
 
       $ejecutar =  $db->consulta("INSERT INTO `affiliates` (`name`,`email`,`counter`,`top`,`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`10`,`code`,`logo`,`show_note`,`note`,`raw`,`tbl_1`,`tbl_2`,`tbl_3`) VALUES ('".$name."','".$email."','0','$top','$top1','$top2','$top3','$top4','$top5','$top6','$top7','$top8','$top9','$top10','$code','$imagen','$show_note','$note','$raw','$tbl_1','$tbl_2','$tbl_3')");
 	  
@@ -1613,7 +1722,18 @@ if($logo==""){
 //special
       $ejecutar =  $db->consulta("INSERT INTO `special` (`id`,`name`,`email`,`counter`,`top`,`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`10`,`code`,`logo`,`special`,`special_show_note`,`special_note`) VALUES ('". $AffiliateID."','".$name."','".$email."','0','$top','$special1','$special2','$special3','$special4','$special5','$special6','$special7','$special8','$special9','$special10','$code','$imagen','$special','$special_show_note','$special_note')");
 	  
-if(count($Value1) > 0)
+
+    // bus schedule
+    if (count($BusSchedule) > 0)
+    {
+        foreach ($BusSchedule as $j => $item)
+        {
+            $query = $db->consulta("INSERT INTO `affiliates_transport` (`idaffiliate`,`idtransport`) values ('".$AffiliateID."','".$BusSchedule[$j]."')");
+        }
+    }
+
+
+    if(count($Value1) > 0)
 {
 foreach( $Value1 as $i => $banners){
 	
